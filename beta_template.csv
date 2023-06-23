@@ -1,6 +1,6 @@
 Additive or Multiplicative attributes?,Multiplicative,,Compound model?,N,,,,,,,
 Low and high percentile cut-offs for attribute scoring,1.0/3.0,2.0/3.0,Axis label,Susceptibility,,,,,,,
-Number of attributes,4,,,,,,,,,,
+Number of attributes,4,,Weight,1,,,,,,,
 Low and high thresholds,1.0/3.0,2.0/3.0,,,,,,,,,
 ,,,,,,,,,,,
 Group,Species,Attribute 1,Attribute 2,Attribute 3,Attribute 4,,,A1 weights,A2 weights,A3 weights,A4 weights
