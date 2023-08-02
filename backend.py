@@ -142,10 +142,10 @@ def inputData(data, data2):
                       1:3]  # store percentile cut-offs for attribute scores (1,2,3) for susceptibility attributes
     prodThresholds = data2[1][1:3]  # store productivity thresholds
     suscThresholds = data[1][1:3]  # store susceptibility thresholds
-    nullVal = data[0][4]
-    reverse = data2[0][4]
-    xaxis = data2[1][4]
-    yaxis = data[1][4]
+    nullVal = data[0][4] # antagonistic, neutral, or compounding treatment
+    reverse = data2[0][4] # should alpha axis be reverse order
+    xaxis = data2[1][4] # label x axis
+    yaxis = data[1][4] # label y axis
     weightS = float(data[2][4])
     axisLabel = [xaxis, yaxis]
     if prodThresholds != suscThresholds:
